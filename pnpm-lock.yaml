@@ -49,8 +49,8 @@ importers:
         specifier: 16.18.24
         version: 16.18.24
       '@types/tap':
-        specifier: 15.0.8
-        version: 15.0.8
+        specifier: 15.0.12
+        version: 15.0.12
       tap:
         specifier: 16.3.4
         version: 16.3.4(typescript@5.0.4)
@@ -355,8 +355,8 @@ packages:
     resolution: {integrity: sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==}
     dev: false
 
-  /@types/tap@15.0.8:
-    resolution: {integrity: sha512-ZfeoiZlLIaFi4t6wccwbTEicrHREkP0bOq8dZVi/nWvG5F8O7LlS2cSUZBiOW/D4cgWS/p2uhM3lJoyzFAl80w==}
+  /@types/tap@15.0.12:
+    resolution: {integrity: sha512-QuVlxQEBOBASkirrwp0ciwO9stIzOdRMHyaYYsexeVSAYwR4sq+YIYaQbVaYXSXi8+yPf22ZZNieRCB8KAJrTA==}
     dependencies:
       '@types/node': 16.18.24
     dev: true
