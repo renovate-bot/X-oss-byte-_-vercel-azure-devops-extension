@@ -19,6 +19,6 @@
     "@types/node": "16.18.24",
     "@types/tap": "15.0.8",
     "tap": "16.3.4",
-    "typescript": "5.0.4"
+    "typescript": "5.7.3"
   }
 }
