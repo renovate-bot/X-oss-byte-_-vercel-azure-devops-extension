@@ -16,7 +16,7 @@
     "undici": "5.26.2"
   },
   "devDependencies": {
-    "@types/node": "16.18.24",
+    "@types/node": "16.18.126",
     "@types/tap": "15.0.8",
     "tap": "16.3.4",
     "typescript": "5.0.4"
