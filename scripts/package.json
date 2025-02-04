@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "execa": "7.1.1",
-    "tfx-cli": "0.14.0"
+    "tfx-cli": "0.20.0"
   }
 }

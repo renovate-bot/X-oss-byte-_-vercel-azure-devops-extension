@@ -14,8 +14,8 @@ importers:
         specifier: 7.1.1
         version: 7.1.1
       tfx-cli:
-        specifier: 0.14.0
-        version: 0.14.0
+        specifier: 0.20.0
+        version: 0.20.0
 
   vercel-azdo-pr-comment-task-source:
     dependencies:
@@ -1178,6 +1178,7 @@ packages:
 
   /glob@7.1.2:
     resolution: {integrity: sha512-MJTUg1kjuLeQCJ+ccE4Vpa6kKVXkPYJ2mOCQyUuKLcLQsdrMCpBPUi8qVE6+YuaJkozeA9NusTAw3hLr8Xe5EQ==}
+    deprecated: Glob versions prior to v9 are no longer supported
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
@@ -2683,8 +2684,8 @@ packages:
       minimatch: 3.1.2
     dev: true
 
-  /tfx-cli@0.14.0:
-    resolution: {integrity: sha512-LTtp5JMVrsAvtnbvtRIqkEFG6WqO1qThNNM+3/CAlIKwxhBaenl+D/YL9pNojX83pgTA2Fe/FyZJ0A6jAiu5rA==}
+  /tfx-cli@0.20.0:
+    resolution: {integrity: sha512-iCyTvUx70PgUSzjV0jQA1cMurIuaqy9RZjHP0xOiabZpittVzBl3QebcOdjxr1NqAB9BVejZyTEqalR3UOteNQ==}
     engines: {node: '>=8.0.0'}
     hasBin: true
     dependencies:
@@ -2711,7 +2712,7 @@ packages:
       uuid: 3.4.0
       validator: 13.9.0
       winreg: 0.0.12
-      xml2js: 0.4.23
+      xml2js: 0.5.0
     dev: false
 
   /then-request@6.0.2:
@@ -2997,8 +2998,8 @@ packages:
       typedarray-to-buffer: 3.1.5
     dev: true
 
-  /xml2js@0.4.23:
-    resolution: {integrity: sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug==}
+  /xml2js@0.5.0:
+    resolution: {integrity: sha512-drPFnkQJik/O+uPKpqSgr22mpuFHqKdbS835iAQrUC73L2F5WkboIRd63ai/2Yg6I1jzifPFKH2NTK+cfglkIA==}
     engines: {node: '>=4.0.0'}
     dependencies:
       sax: 1.2.4
