@@ -49,8 +49,8 @@ importers:
         specifier: 16.18.24
         version: 16.18.24
       '@types/tap':
-        specifier: 15.0.8
-        version: 15.0.8
+        specifier: 18.0.0
+        version: 18.0.0(typescript@5.0.4)
       tap:
         specifier: 16.3.4
         version: 16.3.4(typescript@5.0.4)
@@ -355,10 +355,17 @@ packages:
     resolution: {integrity: sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==}
     dev: false
 
-  /@types/tap@15.0.8:
-    resolution: {integrity: sha512-ZfeoiZlLIaFi4t6wccwbTEicrHREkP0bOq8dZVi/nWvG5F8O7LlS2cSUZBiOW/D4cgWS/p2uhM3lJoyzFAl80w==}
+  /@types/tap@18.0.0(typescript@5.0.4):
+    resolution: {integrity: sha512-caqy4dfOj/mdGpMdjRIsJc0HDCMUeCLCxbf1mlfAbpDGzOOqd5yQ4hRMxiER+sR7Wx1y3gNEPqFw0ySp4uI/jQ==}
+    deprecated: This is a stub types definition. tap provides its own type definitions, so you do not need this installed.
     dependencies:
-      '@types/node': 16.18.24
+      tap: 16.3.4(typescript@5.0.4)
+    transitivePeerDependencies:
+      - coveralls
+      - flow-remove-types
+      - supports-color
+      - ts-node
+      - typescript
     dev: true
 
   /aggregate-error@3.1.0:
